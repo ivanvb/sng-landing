@@ -1,8 +1,7 @@
 {
-    "name": "simple-boilerplate",
+    "name": "sng-website",
     "version": "1.0.0",
     "private": true,
-    "description": "Simple Boilerplate",
     "author": "ivanvb",
     "keywords": [
         "gatsby"
