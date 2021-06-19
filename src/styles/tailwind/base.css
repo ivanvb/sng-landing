@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+
+/* 
+ * Colors are defined this way to be able to use opacity utils with them
+ * https://github.com/adamwathan/tailwind-css-variable-text-opacity-demo
+ */
+:root {
+    --light_background: 255, 255, 255;
+    --light_text: 0, 0, 0;
+    --light_accent: 229, 231, 235;
+    --light_secondary_accent: 117, 117, 117;
+
+    --primary_background: var(--light_background);
+    --primary_text: var(--light_text);
+    --primary_accent: var(--light_accent);
+    --primary_secondary_accent: var(--light_secondary_accent);
+}
+
+/* Sticky footer/navbar Gatsby specific styles */
+html {
+    min-height: 100vh;
+    height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#___gatsby,
+#gatsby-focus-wartist {
+    height: 100%;
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* End sticky footer/navbar */
+
+.container {
+    max-width: 1140px !important;
+}
+
+@tailwind utilities;

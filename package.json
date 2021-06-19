@@ -1,0 +1,42 @@
+{
+    "name": "simple-boilerplate",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Simple Boilerplate",
+    "author": "ivanvb",
+    "keywords": [
+        "gatsby"
+    ],
+    "scripts": {
+        "dev:gatsby": "gatsby develop -H 0.0.0.0",
+        "build": "NODE_ENV=production yarn build:css && gatsby build",
+        "serve": "gatsby serve",
+        "clean": "gatsby clean",
+        "build:css": "tailwindcss -i ./src/styles/tailwind/base.css -o ./src/styles/tailwind/build.css",
+        "watch:css": "tailwindcss -i ./src/styles/tailwind/base.css -o ./src/styles/tailwind/build.css --watch",
+        "dev": "NODE_ENV=development concurrently \"yarn dev:gatsby\" \"yarn watch:css\""
+    },
+    "dependencies": {
+        "autoprefixer": "^10.2.6",
+        "browser-monads": "^1.0.0",
+        "classnames": "^2.3.1",
+        "gatsby": "^3.7.2",
+        "gatsby-plugin-image": "^1.7.1",
+        "gatsby-plugin-react-helmet": "^4.7.1",
+        "gatsby-plugin-react-helmet-canonical-urls": "^1.4.0",
+        "gatsby-plugin-remove-trailing-slashes": "^3.7.1",
+        "gatsby-plugin-sharp": "^3.7.1",
+        "gatsby-plugin-sitemap": "^4.3.1",
+        "gatsby-source-filesystem": "^3.7.1",
+        "gatsby-transformer-sharp": "^3.7.1",
+        "postcss": "^8.3.5",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-helmet": "^6.1.0",
+        "tailwindcss": "^2.2.2"
+    },
+    "devDependencies": {
+        "concurrently": "^6.2.0",
+        "dotenv": "^10.0.0"
+    }
+}
