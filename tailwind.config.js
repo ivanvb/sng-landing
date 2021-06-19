@@ -21,6 +21,7 @@ module.exports = {
                 'primary-text': cssVarRgbHelper('primary_text'),
                 'primary-accent': cssVarRgbHelper('primary_accent'),
                 'secondary-accent': cssVarRgbHelper('primary_secondary_accent'),
+                'secondary-gray': cssVarRgbHelper('secondary_gray'),
             },
             borderWidth: {
                 '1/2': '0.5px',

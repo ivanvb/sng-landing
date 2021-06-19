@@ -6,14 +6,16 @@
  * https://github.com/adamwathan/tailwind-css-variable-text-opacity-demo
  */
 :root {
-    --light_background: 255, 255, 255;
-    --light_text: 0, 0, 0;
-    --light_accent: 229, 231, 235;
+    --light_background: 0, 0, 0;
+    --light_text: 255, 255, 255;
+    --light_accent: 9, 173, 185;
+    --light_secondary_gray: 167, 167, 167;
     --light_secondary_accent: 117, 117, 117;
 
     --primary_background: var(--light_background);
     --primary_text: var(--light_text);
     --primary_accent: var(--light_accent);
+    --secondary_gray: var(--light_secondary_gray);
     --primary_secondary_accent: var(--light_secondary_accent);
 }
 
@@ -27,6 +29,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    @apply bg-primary-bg text-primary-text;
 }
 
 #___gatsby,
