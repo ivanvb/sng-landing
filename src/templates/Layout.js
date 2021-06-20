@@ -1,10 +1,12 @@
 import React from 'react';
+import Header from '../components/Header';
 import '../styles/tailwind/build.css';
 
 const Layout = ({ children }) => {
     return (
         <>
-            <main className="flex flex-1 flex-col">{children}</main>
+            <Header />
+            <main className="flex flex-col flex-1">{children}</main>
         </>
     );
 };

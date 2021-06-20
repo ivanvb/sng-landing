@@ -71,7 +71,10 @@ module.exports = {
         },
         container: {
             center: true,
-            padding: '2rem',
+            padding: {
+                DEFAULT: '1.2rem',
+                sm: '2rem',
+            },
         },
     },
     variants: {
