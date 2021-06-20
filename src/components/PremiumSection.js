@@ -19,7 +19,11 @@ const PremiumSection = () => {
         <section className="container py-6 mt-6">
             <div className="flex flex-col md:flex-row md:space-x-24">
                 <div className="w-full mb-6 md:w-1/2 md:mb-0">
-                    <img src={PremiumImage} alt="" className="h-56 ml-auto md:h-80" />
+                    <img
+                        src={PremiumImage}
+                        alt=""
+                        className="h-56 mx-auto md:mr-0 md:ml-auto md:h-80"
+                    />
                 </div>
                 <div className="flex flex-col justify-center w-full md:w-1/2 md:mb-20">
                     <h2 className="mb-2 text-2xl font-bold md:text-4xl">{premium_section.title}</h2>

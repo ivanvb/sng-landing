@@ -23,7 +23,11 @@ const NetworkSection = () => {
                     <p className="text-lg text-secondary-gray">{network_section.text}</p>
                 </div>
                 <div className="w-full mb-6 md:w-1/2 md:mb-0">
-                    <img src={NetworkImage} alt="" className="h-56 mr-auto md:h-80" />
+                    <img
+                        src={NetworkImage}
+                        alt=""
+                        className="h-56 mx-auto md:ml-0 md:mr-auto md:h-80"
+                    />
                 </div>
             </div>
         </section>
