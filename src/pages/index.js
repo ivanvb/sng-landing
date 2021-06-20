@@ -4,6 +4,7 @@ import Hero from '../components/Hero';
 import DescriptionSection from '../components/DescriptionSection';
 import PremiumSection from '../components/PremiumSection';
 import NetworkSection from '../components/NetworkSection';
+import DownloadSection from '../components/DownloadSection';
 
 const IndexPage = () => {
     return (
@@ -13,6 +14,7 @@ const IndexPage = () => {
             <DescriptionSection />
             <PremiumSection />
             <NetworkSection />
+            <DownloadSection />
         </>
     );
 };

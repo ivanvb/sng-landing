@@ -29,6 +29,7 @@
         "text": "Join the world’s largest network of new artists, all of which enjoy their newly obtained song name as well as coaching from our experienced team."
     },
     "download": {
+        "cta": "Start Your Music Career Now!",
         "apple": {
             "image": "../../images/apple_store.png",
             "link": "https://www.apple.com/app-store/"
