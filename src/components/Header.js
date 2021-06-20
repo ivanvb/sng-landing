@@ -1,11 +1,11 @@
 import React from 'react';
 import Logo from '../images/Generator_logo.svg';
-import { useStaticQuery, gsonghql } from 'gatsby';
+import { useStaticQuery, graphql } from 'gatsby';
 
 const Header = () => {
     const {
         homepageJson: { navbar },
-    } = useStaticQuery(gsonghql`
+    } = useStaticQuery(graphql`
         query {
             homepageJson {
                 navbar {

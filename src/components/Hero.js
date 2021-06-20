@@ -1,5 +1,5 @@
 import React from 'react';
-import { gsonghql, useStaticQuery } from 'gatsby';
+import { graphql, useStaticQuery } from 'gatsby';
 import { GatsbyImage } from 'gatsby-plugin-image';
 import Logo from '../images/SNG_Logo.svg';
 import iPhoneMobile from '../images/iphone_mobile.svg';
@@ -8,7 +8,7 @@ import iPhoneDesktop from '../images/iphone_desktop.svg';
 const Hero = () => {
     const {
         homepageJson: { hero, download },
-    } = useStaticQuery(gsonghql`
+    } = useStaticQuery(graphql`
         query {
             homepageJson {
                 hero {

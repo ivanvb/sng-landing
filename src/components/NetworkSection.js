@@ -1,11 +1,11 @@
 import React from 'react';
-import { useStaticQuery, gsonghql } from 'gatsby';
+import { useStaticQuery, graphql } from 'gatsby';
 import NetworkImage from '../images/NetworkImage.svg';
 
 const NetworkSection = () => {
     const {
         homepageJson: { network_section },
-    } = useStaticQuery(gsonghql`
+    } = useStaticQuery(graphql`
         query {
             homepageJson {
                 network_section {

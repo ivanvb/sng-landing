@@ -1,3 +1,3 @@
-const { wsongPageElement } = require('./gatsby-common.js');
+const { wrapPageElement } = require('./gatsby-common.js');
 
-exports.wsongPageElement = wsongPageElement;
+exports.wrapPageElement = wrapPageElement;

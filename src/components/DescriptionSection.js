@@ -1,11 +1,11 @@
 import React from 'react';
-import { gsonghql, useStaticQuery } from 'gatsby';
+import { graphql, useStaticQuery } from 'gatsby';
 import AudioWave from '../images/AudioWave.svg';
 
 const DescriptionSection = () => {
     const {
         homepageJson: { description_section },
-    } = useStaticQuery(gsonghql`
+    } = useStaticQuery(graphql`
         query {
             homepageJson {
                 description_section {

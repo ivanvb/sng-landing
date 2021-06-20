@@ -1,11 +1,11 @@
 import React from 'react';
-import { useStaticQuery, gsonghql } from 'gatsby';
+import { useStaticQuery, graphql } from 'gatsby';
 import { GatsbyImage } from 'gatsby-plugin-image';
 
 const DownloadSection = () => {
     const {
         homepageJson: { download },
-    } = useStaticQuery(gsonghql`
+    } = useStaticQuery(graphql`
         query {
             homepageJson {
                 download {

@@ -13,7 +13,7 @@ const headingStyles = {
   maxWidth: 320,
 }
 
-const paragsonghStyles = {
+const paragraphStyles = {
   marginBottom: 48,
 }
 const codeStyles = {
@@ -30,7 +30,7 @@ const NotFoundPage = () => {
     <main style={pageStyles}>
       <title>Not found</title>
       <h1 style={headingStyles}>Page not found</h1>
-      <p style={paragsonghStyles}>
+      <p style={paragraphStyles}>
         Sorry{" "}
         <span role="img" aria-label="Pensive emoji">
           😔

@@ -1,13 +1,13 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import { useStaticQuery, gsonghql } from 'gatsby';
+import { useStaticQuery, graphql } from 'gatsby';
 
 const Seo = ({ description, meta, title, image, socialTitle }) => {
     meta = meta ? meta : [];
     description = description ? description : '';
 
     const { site, file } = useStaticQuery(
-        gsonghql`
+        graphql`
             query {
                 site {
                     siteMetadata {

@@ -1,11 +1,11 @@
 import React from 'react';
-import { useStaticQuery, gsonghql } from 'gatsby';
+import { useStaticQuery, graphql } from 'gatsby';
 import PremiumImage from '../images/PremiumImage.svg';
 
 const PremiumSection = () => {
     const {
         homepageJson: { premium_section },
-    } = useStaticQuery(gsonghql`
+    } = useStaticQuery(graphql`
         query {
             homepageJson {
                 premium_section {
