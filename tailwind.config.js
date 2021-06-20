@@ -69,6 +69,9 @@ module.exports = {
             screens: {
                 xs: '320px',
             },
+            borderRadius: {
+                '1/2': '50%',
+            },
         },
         container: {
             center: true,

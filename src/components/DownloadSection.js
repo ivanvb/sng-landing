@@ -32,7 +32,7 @@ const DownloadSection = () => {
     `);
     return (
         <section
-            className="flex flex-col items-center py-20 border-b-8 bg-opacity-30 bg-primary-accent border-primary-accent"
+            className="relative flex flex-col items-center py-20 overflow-hidden border-b-8 bg-opacity-30 bg-primary-accent border-primary-accent"
             id="download"
         >
             <div className="container">
@@ -56,6 +56,7 @@ const DownloadSection = () => {
                     ))}
                 </div>
             </div>
+            <div className="absolute bottom-0 w-full h-16 translate-y-1/2 rounded-b-none bg-primary-accent rounded-1/2 blur-2xl"></div>
         </section>
     );
 };
