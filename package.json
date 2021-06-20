@@ -21,6 +21,7 @@
         "classnames": "^2.3.1",
         "gatsby": "^3.7.2",
         "gatsby-plugin-image": "^1.7.1",
+        "gatsby-plugin-manifest": "^3.7.1",
         "gatsby-plugin-react-helmet": "^4.7.1",
         "gatsby-plugin-react-helmet-canonical-urls": "^1.4.0",
         "gatsby-plugin-remove-trailing-slashes": "^3.7.1",
