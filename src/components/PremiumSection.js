@@ -16,8 +16,8 @@ const PremiumSection = () => {
         }
     `);
     return (
-        <section className="container py-12">
-            <div className="flex flex-col md:flex-row md:space-x-12">
+        <section className="container py-6 mt-6">
+            <div className="flex flex-col md:flex-row md:space-x-24">
                 <div className="w-full mb-6 md:w-1/2 md:mb-0">
                     <img src={PremiumImage} alt="" className="h-56 ml-auto md:h-80" />
                 </div>
