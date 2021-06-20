@@ -42,6 +42,16 @@ body {
     flex-direction: column;
 }
 
+.hero-section {
+    background: radial-gradient(140% 85.31% at 0% 0%, rgb(25, 80, 92) 0%, rgb(0, 0, 0) 100%);
+}
+
+@screen md {
+    .hero-section {
+        background: radial-gradient(98.5% 100% at 0% 0%, rgb(25, 80, 92) 0%, rgb(0, 0, 0) 100%);
+    }
+}
+
 /* End sticky footer/navbar */
 
 .container {

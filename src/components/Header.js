@@ -16,8 +16,8 @@ const Header = () => {
         }
     `);
     return (
-        <header className="container py-8 mb-5 md:mb-10">
-            <div className="flex items-center justify-between">
+        <header className="z-50 -mb-40">
+            <div className="container flex items-center justify-between py-6 mb-5 md:mb-10">
                 <h1>
                     <img src={Logo} alt="Song Name Generator by Generators™️" />
                 </h1>

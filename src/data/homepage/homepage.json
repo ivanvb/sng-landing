@@ -30,11 +30,11 @@
     },
     "download": {
         "apple": {
-            "image": "../images/apple_store.png",
+            "image": "../../images/apple_store.png",
             "link": "https://www.apple.com/app-store/"
         },
         "android": {
-            "image": "../images/Google_play.png",
+            "image": "../../images/Google_play.png",
             "link": "https://play.google.com/store"
         }
     }
