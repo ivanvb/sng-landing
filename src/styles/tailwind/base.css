@@ -10,7 +10,7 @@
     --light_text: 255, 255, 255;
     --light_accent: 9, 173, 185;
     --light_secondary_gray: 167, 167, 167;
-    --light_secondary_accent: 117, 117, 117;
+    --light_secondary_accent: 36, 36, 36;
 
     --primary_background: var(--light_background);
     --primary_text: var(--light_text);
