@@ -38,5 +38,23 @@
             "image": "../../images/Google_play.png",
             "link": "https://play.google.com/store"
         }
-    }
+    },
+    "faq": [
+        {
+            "question": "Is this application free?",
+            "answer": "It is free! Although we have a premium subscription which gives you access to a network of other users who take song name generation as seriously as you do. Also it helps support the development of the app."
+        },
+        {
+            "question": "How many different song names can be generated from an individual input?",
+            "answer": "As of now we can generate an average 2,577,312 unique song names for each input, however this number will continue increasing as we gather more data to train our advanced generator."
+        },
+        {
+            "question": "Does the application works offline?",
+            "answer": "It does! All the computation happens on your device, so you can generate song names without an Internet connection!"
+        },
+        {
+            "question": "Will this be available on Windows Phone?",
+            "answer": "According to our engineering team they expect to have the Windows Phone version ready for Q3 2029, subscribe to our newsletter to keep up to date with further information!"
+        }
+    ]
 }
