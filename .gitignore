@@ -4,3 +4,4 @@ public
 **/styles/tailwind/build.css
 
 **/.env.**
+.DS_Store
