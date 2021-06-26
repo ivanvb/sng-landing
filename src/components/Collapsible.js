@@ -22,6 +22,7 @@ const Collapsible = ({ title, body }) => {
             className="px-4 py-4 text-left rounded-lg cursor-pointer md:px-6 bg-secondary-accent focus:outline-none"
             onClick={() => setExpanded((prev) => !prev)}
             transition={{ duration: 2 }}
+            aria-expanded={expanded ? 'true' : 'false'}
         >
             <div className="flex items-center justify-between space-x-2">
                 <h3 className="text-lg font-bold md:text-xl ">{title}</h3>
