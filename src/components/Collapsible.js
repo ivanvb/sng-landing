@@ -2,9 +2,24 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import ExpandedIcon from './ExpandedIcon';
 
+const questions = {
+    visible: {
+        opacity: 1,
+        y: 0,
+        transition: {
+            duration: 0.5,
+        },
+    },
+    hidden: {
+        opacity: 0,
+        y: 50,
+    },
+};
+
 const Collapsible = ({ title, body }) => {
     const contentRef = React.useRef();
 
+    const [expanded, setExpanded] = React.useState(false);
     const trasitionDuration = 0.3;
     const expandedVariants = {
         nonExpanded: {
@@ -15,14 +30,12 @@ const Collapsible = ({ title, body }) => {
         },
     };
 
-    const [expanded, setExpanded] = React.useState(false);
-
     return (
-        <button
+        <motion.button
             className="px-4 py-4 text-left rounded-lg cursor-pointer md:px-6 bg-secondary-accent focus:outline-none"
             onClick={() => setExpanded((prev) => !prev)}
-            transition={{ duration: 2 }}
             aria-expanded={expanded ? 'true' : 'false'}
+            variants={questions}
         >
             <div className="flex items-center justify-between space-x-2">
                 <h3 className="text-lg font-bold md:text-xl ">{title}</h3>
@@ -42,7 +55,7 @@ const Collapsible = ({ title, body }) => {
             >
                 <p className="mt-2">{body}</p>
             </motion.div>
-        </button>
+        </motion.button>
     );
 };
 
