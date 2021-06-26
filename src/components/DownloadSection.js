@@ -56,7 +56,9 @@ const DownloadSection = () => {
                     ))}
                 </div>
             </div>
-            <div className="absolute bottom-0 w-full h-16 translate-y-1/2 rounded-b-none bg-primary-accent rounded-1/2 blur-2xl"></div>
+            <div className="absolute bottom-0 w-full translate-y-1/2">
+                <div className="absolute bottom-0 w-full h-12 rounded-b-none bg-primary-accent rounded-1/2 blur-2xl animate-shine"></div>
+            </div>
         </section>
     );
 };

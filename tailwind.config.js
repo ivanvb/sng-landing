@@ -72,6 +72,15 @@ module.exports = {
             borderRadius: {
                 '1/2': '50%',
             },
+            keyframes: {
+                shine: {
+                    '0%, 100%': { transform: 'scale(1)' },
+                    '40%, 60%': { transform: 'scale(1.15)' },
+                },
+            },
+            animation: {
+                shine: 'shine 3s ease-in-out infinite',
+            },
         },
         container: {
             center: true,
