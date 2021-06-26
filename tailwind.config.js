@@ -90,7 +90,7 @@ module.exports = {
             },
         },
         fontFamily: {
-            sans: ['Roboto', 'Time New Roman', 'ui-sans-serif', 'system-ui'],
+            sans: ['Roboto', 'ui-sans-serif', 'system-ui'],
         },
     },
     variants: {
