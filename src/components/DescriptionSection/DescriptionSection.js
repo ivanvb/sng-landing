@@ -1,6 +1,6 @@
 import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
-import AudioWave from '../../images/AudioWave.svg';
+import AudioWave from './AudioWave';
 
 const DescriptionSection = () => {
     const {
@@ -18,7 +18,7 @@ const DescriptionSection = () => {
     return (
         <section className="py-12 bg-secondary-accent">
             <div className="container text-center">
-                <img src={AudioWave} className="h-20 mx-auto mb-3" />
+                <AudioWave />
                 <h2 className="mb-2 text-2xl font-bold md:text-4xl">{description_section.title}</h2>
                 <p className="w-full mx-auto text-lg text-secondary-gray md:w-9/12">
                     {description_section.text}
