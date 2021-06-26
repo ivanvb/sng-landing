@@ -29,8 +29,10 @@ const Header = () => {
                     <ul className="flex items-center space-x-2 xs:space-x-3 md:space-x-8">
                         {navbar.map((item, i) => {
                             return (
-                                <li className="" key={i}>
-                                    <a href={item.link}>{item.title}</a>
+                                <li key={i}>
+                                    <a href={item.link} className="hover:opacity-75">
+                                        {item.title}
+                                    </a>
                                 </li>
                             );
                         })}
