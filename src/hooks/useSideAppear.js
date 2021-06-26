@@ -21,7 +21,7 @@ export function useSideAppear({ threshold, responsiveStaggerDirection } = {}) {
             x: 0,
             y: 0,
             transition: {
-                duration: 1,
+                duration: 0.8,
             },
         },
         hidden: (multiplier = -1) => ({

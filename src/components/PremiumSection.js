@@ -1,7 +1,7 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import { useSideAppear } from '../hooks/useSideAppear';
-import PremiumImage from '../images/PremiumImage.svg';
+import PremiumCards from './PremiumCards';
 import { motion } from 'framer-motion';
 
 const PremiumSection = () => {
@@ -18,7 +18,7 @@ const PremiumSection = () => {
         }
     `);
 
-    const { containerVariants, elementsVariants, ref, currentVariant } = useSideAppear();
+    const { containerVariants, elementsVariants, ref, currentVariant, inView } = useSideAppear();
 
     return (
         <section className="container py-6 mt-6" ref={ref}>
@@ -28,11 +28,7 @@ const PremiumSection = () => {
                 animate={currentVariant}
             >
                 <motion.div className="w-full mb-6 md:w-1/2 md:mb-0" variants={elementsVariants}>
-                    <img
-                        src={PremiumImage}
-                        alt=""
-                        className="h-56 mx-auto md:mr-0 md:ml-auto md:h-80"
-                    />
+                    <PremiumCards visible={inView} />
                 </motion.div>
                 <motion.div
                     className="flex flex-col justify-center w-full md:w-1/2 md:mb-20"
