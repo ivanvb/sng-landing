@@ -26,7 +26,7 @@ const FAQSection = () => {
         }
     `);
 
-    const { ref, inView } = useInView({ threshold: 0.6 });
+    const { ref, inView } = useInView({ threshold: 0.6, triggerOnce: true });
 
     return (
         <section id="faq" className="container py-8 md:px-12 lg:px-40" ref={ref}>
