@@ -89,6 +89,9 @@ module.exports = {
                 sm: '2rem',
             },
         },
+        fontFamily: {
+            sans: ['Roboto', 'Time New Roman', 'ui-sans-serif', 'system-ui'],
+        },
     },
     variants: {
         extend: {
