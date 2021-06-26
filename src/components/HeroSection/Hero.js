@@ -49,8 +49,20 @@ const Hero = () => {
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.5, delay: 0.1 }}
                 >
-                    <img src={iPhoneDesktop} alt="" className="hidden mx-auto h-128 md:block" />
-                    <img src={iPhoneMobile} alt="" className="block md:hidden" />
+                    <img
+                        src={iPhoneDesktop}
+                        alt=""
+                        className="hidden mx-auto h-128 md:block"
+                        height="763"
+                        width="531"
+                    />
+                    <img
+                        src={iPhoneMobile}
+                        alt=""
+                        className="block md:hidden"
+                        height="763"
+                        width="531"
+                    />
                 </motion.div>
                 <div className="flex flex-col justify-center w-full mb-16 text-lg md:text-xl md:w-1/2 space text-secondary-gray md:mb-0">
                     <img src={Logo} alt="SNG Logo" className="h-16 mb-4 mr-auto md:h-16" />
