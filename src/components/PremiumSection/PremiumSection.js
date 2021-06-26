@@ -1,6 +1,6 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-import { useSideAppear } from '../hooks/useSideAppear';
+import { useSideAppear } from '../../hooks/useSideAppear';
 import PremiumCards from './PremiumCards';
 import { motion } from 'framer-motion';
 

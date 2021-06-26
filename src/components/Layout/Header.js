@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../images/Generator_logo.svg';
+import Logo from '../../images/Generator_logo.svg';
 import { useStaticQuery, graphql } from 'gatsby';
 
 const Header = () => {

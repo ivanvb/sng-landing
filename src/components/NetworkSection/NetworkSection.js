@@ -1,8 +1,8 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import { motion } from 'framer-motion';
-import { useSideAppear } from '../hooks/useSideAppear';
-import NetworkImage from '../images/NetworkImage.svg';
+import { useSideAppear } from '../../hooks/useSideAppear';
+import NetworkImage from '../../images/NetworkImage.svg';
 
 const NetworkSection = () => {
     const {

@@ -1,9 +1,9 @@
 import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
 import { GatsbyImage } from 'gatsby-plugin-image';
-import Logo from '../images/SNG_Logo.svg';
-import iPhoneMobile from '../images/iphone_mobile.svg';
-import iPhoneDesktop from '../images/iphone_desktop.svg';
+import Logo from '../../images/SNG_Logo.svg';
+import iPhoneMobile from '../../images/iphone_mobile.svg';
+import iPhoneDesktop from '../../images/iphone_desktop.svg';
 
 const Hero = () => {
     const {

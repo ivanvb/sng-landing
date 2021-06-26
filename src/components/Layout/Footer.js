@@ -1,5 +1,5 @@
 import React from 'react';
-import GeneratorsLogo from '../images/Generator_logo.svg';
+import GeneratorsLogo from '../../images/Generator_logo.svg';
 
 const Footer = () => {
     return (

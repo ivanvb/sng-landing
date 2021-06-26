@@ -1,6 +1,6 @@
 import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
-import AudioWave from '../images/AudioWave.svg';
+import AudioWave from '../../images/AudioWave.svg';
 
 const DescriptionSection = () => {
     const {

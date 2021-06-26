@@ -1,6 +1,6 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-import Collapsible from './Collapsible';
+import Collapsible from '../Collapsible/Collapsible';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 

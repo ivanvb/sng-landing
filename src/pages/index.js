@@ -1,11 +1,11 @@
 import React from 'react';
-import Seo from '../components/Seo';
-import Hero from '../components/Hero';
-import DescriptionSection from '../components/DescriptionSection';
-import PremiumSection from '../components/PremiumSection';
-import NetworkSection from '../components/NetworkSection';
-import FAQSection from '../components/FAQSection';
-import DownloadSection from '../components/DownloadSection';
+import Seo from '../components/Seo/Seo';
+import Hero from '../components/HeroSection/Hero';
+import DescriptionSection from '../components/DescriptionSection/DescriptionSection';
+import PremiumSection from '../components/PremiumSection/PremiumSection';
+import NetworkSection from '../components/NetworkSection/NetworkSection';
+import FAQSection from '../components/FaqSection/FAQSection';
+import DownloadSection from '../components/DownloadSection/DownloadSection';
 
 const IndexPage = () => {
     return (
