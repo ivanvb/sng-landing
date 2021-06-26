@@ -27,6 +27,9 @@ const Collapsible = ({ title, body }) => {
         },
         expanded: {
             height: `${contentRef?.current?.scrollHeight || '0'}px`,
+            transition: {
+                duration: 10,
+            },
         },
     };
 

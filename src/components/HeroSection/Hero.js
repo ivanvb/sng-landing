@@ -24,6 +24,7 @@ const Hero = () => {
                             }
                         }
                         link
+                        label
                     }
                     android {
                         image {
@@ -32,6 +33,7 @@ const Hero = () => {
                             }
                         }
                         link
+                        label
                     }
                 }
             }
@@ -69,6 +71,7 @@ const Hero = () => {
                                     href={item.link}
                                     className="inline-block w-40 h-12 rounded-md ring-primary-text ring-opacity-70"
                                     key={i}
+                                    aria-label={item.label}
                                 >
                                     <GatsbyImage
                                         image={item.image.childImageSharp.gatsbyImageData}

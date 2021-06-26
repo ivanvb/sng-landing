@@ -19,6 +19,7 @@ const DownloadSection = () => {
                             }
                         }
                         link
+                        label
                     }
                     android {
                         image {
@@ -27,6 +28,7 @@ const DownloadSection = () => {
                             }
                         }
                         link
+                        label
                     }
                 }
             }
@@ -84,6 +86,7 @@ const DownloadSection = () => {
                             href={item.link}
                             className="inline-block w-40 h-16 rounded-md md:w-48 md:h-16 ring-primary-text ring-opacity-80"
                             key={i}
+                            aria-label={item.label}
                         >
                             <GatsbyImage
                                 image={item.image.childImageSharp.gatsbyImageData}

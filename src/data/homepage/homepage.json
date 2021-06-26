@@ -32,11 +32,13 @@
         "cta": "Start Your Music Career Now!",
         "apple": {
             "image": "../../images/apple_store.png",
-            "link": "https://www.apple.com/app-store/"
+            "link": "https://www.apple.com/app-store/",
+            "label": "Download Song Name Generator on Apple's App Store"
         },
         "android": {
             "image": "../../images/Google_play.png",
-            "link": "https://play.google.com/store"
+            "link": "https://play.google.com/store",
+            "label": "Download Song Name Generator on Google's Google Play"
         }
     },
     "faq": [
