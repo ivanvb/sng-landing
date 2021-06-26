@@ -33,7 +33,7 @@ const DownloadSection = () => {
         }
     `);
 
-    const { inView, ref } = useInView({ threshold: 0.8, triggerOnce: true });
+    const { inView, ref } = useInView({ threshold: 0.7, triggerOnce: true });
     const containerVariants = {
         visible: {
             y: 0,
