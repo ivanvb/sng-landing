@@ -65,7 +65,13 @@ const Hero = () => {
                     />
                 </motion.div>
                 <div className="flex flex-col justify-center w-full mb-16 text-lg md:text-xl md:w-1/2 space text-secondary-gray md:mb-0">
-                    <img src={Logo} alt="SNG Logo" className="h-16 mb-4 mr-auto md:h-16" />
+                    <img
+                        src={Logo}
+                        alt="SNG Logo"
+                        className="h-16 mb-4 mr-auto md:h-16"
+                        width="307"
+                        height="97"
+                    />
                     <h2 className="font-bold text-3xl xl:text-4.5xl  text-white mb-3">
                         {hero.title}
                     </h2>
