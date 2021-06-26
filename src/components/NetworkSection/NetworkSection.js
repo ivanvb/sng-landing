@@ -2,7 +2,7 @@ import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import { motion } from 'framer-motion';
 import { useSideAppear } from '../../hooks/useSideAppear';
-import NetworkImage from '../../images/NetworkImage.svg';
+import NetworkGraphic from './NetworkGraphic';
 
 const NetworkSection = () => {
     const {
@@ -37,15 +37,11 @@ const NetworkSection = () => {
                     <p className="text-lg text-secondary-gray">{network_section.text}</p>
                 </motion.div>
                 <motion.div
-                    className="w-full mb-6 md:w-1/2 md:mb-0"
+                    className="w-full mb-10 md:w-1/2 md:mb-0"
                     variants={elementsVariants}
                     custom={1}
                 >
-                    <img
-                        src={NetworkImage}
-                        alt=""
-                        className="h-56 mx-auto md:ml-0 md:mr-auto md:h-80"
-                    />
+                    <NetworkGraphic />
                 </motion.div>
             </motion.div>
         </section>
