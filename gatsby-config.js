@@ -27,7 +27,7 @@ module.exports = {
         title: 'Song Name Generator',
         description: 'Generate song names from a virtually infinite amount of possibilities.',
         author: 'Generators',
-        keywords: ['gatsby', 'portfolio', 'react'],
+        keywords: ['gatsby', 'portfolio', 'react', 'framer-motion'],
         siteUrl: siteUrl,
     },
     plugins: [
