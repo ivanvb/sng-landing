@@ -23,7 +23,7 @@ const NetworkSection = () => {
     });
 
     return (
-        <section className="container py-6 mb-6 overflow-x-hidden" ref={ref}>
+        <section className="container py-6 mb-6 overflow-hidden" ref={ref}>
             <motion.div
                 className="flex flex-col-reverse md:flex-row md:space-x-24"
                 variants={containerVariants}
