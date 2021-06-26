@@ -65,7 +65,11 @@ const Hero = () => {
                         })}
                         <div className="flex space-x-6">
                             {[download.apple, download.android].map((item, i) => (
-                                <a href={item.link} className="inline-block w-40 h-12" key={i}>
+                                <a
+                                    href={item.link}
+                                    className="inline-block w-40 h-12 rounded-md ring-primary-text ring-opacity-70"
+                                    key={i}
+                                >
                                     <GatsbyImage
                                         image={item.image.childImageSharp.gatsbyImageData}
                                         alt=""
