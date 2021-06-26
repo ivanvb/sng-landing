@@ -37,6 +37,7 @@ const PremiumSection = () => {
                 <motion.div
                     className="flex flex-col justify-center w-full md:w-1/2 md:mb-20"
                     variants={elementsVariants}
+                    custom={1}
                 >
                     <h2 className="mb-2 text-2xl font-bold md:text-4xl">{premium_section.title}</h2>
                     <p className="text-lg text-secondary-gray md:pr-20">{premium_section.text}</p>
