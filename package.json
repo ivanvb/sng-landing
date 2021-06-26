@@ -19,6 +19,7 @@
         "autoprefixer": "^10.2.6",
         "browser-monads": "^1.0.0",
         "classnames": "^2.3.1",
+        "framer-motion": "^4.1.17",
         "gatsby": "^3.7.2",
         "gatsby-plugin-image": "^1.7.1",
         "gatsby-plugin-manifest": "^3.7.1",
