@@ -19,7 +19,7 @@ const Hero = () => {
                     apple {
                         image {
                             childImageSharp {
-                                gatsbyImageData(width: 350)
+                                gatsbyImageData(width: 350, placeholder: NONE)
                             }
                         }
                         link
@@ -27,7 +27,7 @@ const Hero = () => {
                     android {
                         image {
                             childImageSharp {
-                                gatsbyImageData(width: 350)
+                                gatsbyImageData(width: 350, placeholder: NONE)
                             }
                         }
                         link
