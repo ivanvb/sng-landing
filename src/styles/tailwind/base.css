@@ -30,7 +30,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    @apply bg-primary-bg text-primary-text;
+    @apply overflow-x-hidden bg-primary-bg text-primary-text;
 }
 
 #___gatsby,
