@@ -18,8 +18,13 @@ const NetworkGraphic = () => {
     };
 
     return (
-        <motion.div variants={variants} className="">
-            <svg fill="none" viewBox="0 0 591 598" xmlns="http://www.w3.org/2000/svg">
+        <motion.div variants={variants}>
+            <svg
+                fill="none"
+                viewBox="0 0 591 598"
+                xmlns="http://www.w3.org/2000/svg"
+                className="scale-95"
+            >
                 <circle
                     cx="295.14"
                     cy="295.22"
