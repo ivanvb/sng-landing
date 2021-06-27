@@ -69,7 +69,7 @@ const Hero = () => {
                         src={Logo}
                         alt="SNG Logo"
                         className="h-16 mb-4 mr-auto md:h-16"
-                        width="307"
+                        width="205"
                         height="97"
                     />
                     <h2 className="font-bold text-3xl xl:text-4.5xl  text-white mb-3">
